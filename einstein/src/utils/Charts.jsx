@@ -74,13 +74,13 @@ const Charts = () => {
                     ))}
                 </AreaChart>
             </div>
-            <div className="col-12 align-self-center center p-2 bg-indigo bg-gradient rounded rounded-3 row justify-content-evenly align-items-center">
+            {/* <div className="col-12 align-self-center center p-2 bg-indigo bg-gradient rounded rounded-3 row justify-content-evenly align-items-center">
                 <ResponsiveContainer width="100%" height="400px" minWidth="100px" maxHeight="400px" debounce={5}>
                     <PieChart className="center bg-secondary" width={400} height={400}>
                         <Pie data={lastWeekData} dataKey="visit" nameKey="day" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
                     </PieChart>
                 </ResponsiveContainer>
-            </div>
+            </div> */}
         </div>
     );
 }
