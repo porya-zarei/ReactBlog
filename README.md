@@ -18,6 +18,6 @@ Reactjs blog with Asp .net Core API
 **for upgrading send your helps**
 ---
 
-![WebApp-image1](./einstein/public/images/screenshots/ss1.jpg)
-![WebApp-image2](./einstein/public/images/screenshots/ss1.jpg)
-![WebApp-image3](./einstein/public/images/screenshots/ss1.jpg)
+![WebApp-image1](./screenshots/ss1.jpg)
+![WebApp-image2](./screenshots/ss2.jpg)
+![WebApp-image3](./screenshots/ss3.jpg)
