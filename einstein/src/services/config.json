@@ -1,0 +1,15 @@
+{
+  "api": "https://localhost:44375/api",
+  "api2": "https://localhost:44375/api",
+  "login": "https://localhost:44375/api/authorize",
+  "register": "https://localhost:44375/api/users",
+  "contactme": "https://localhost:44375/api/contaactme",
+  "groups": "https://localhost:44375/api/postgroups",
+  "comments": "https://localhost:44375/api/postcomments",
+  "uploadImage": "https://localhost:44375/api/UploadFiles/Image",
+  "uploadFiles": "https://localhost:44375/api/UploadFiles/Files",
+  "uploadFile": "https://localhost:44375/api/UploadFiles/File",
+  "CDNImage": "https://localhost:44375/images/posts_image",
+  "CDNFiles": "https://localhost:44375/files/public",
+  "CDNMusics": "https://localhost:44375/musics"
+}

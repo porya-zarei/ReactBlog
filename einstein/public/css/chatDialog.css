@@ -1,0 +1,38 @@
+.btn-dialogz {
+    position: fixed;
+    top: 90%;
+    right: 50px;
+    margin-bottom: 20px;
+    z-index: 999;
+}
+
+.chat-dialog {
+    position: fixed;
+    height: 600px;
+    width: 300px;
+    top: 14%;
+    right: 30px;
+    z-index: 999;
+
+}
+
+.chat-c {
+    background-image: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.chat-c-u {
+    display: list-item;
+    height: 300px;
+    width: auto;
+    list-style: none;
+    overflow-y: auto;
+
+}
+
+.btn-c {
+    height: 40px;
+    width: 40px;
+}

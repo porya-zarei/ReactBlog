@@ -1,0 +1,116 @@
+{
+  "short_name": "PZE",
+  "name": "Porya Zarei Website",
+  "start_url": "/index.html",
+  "scope": "/",
+  "description": "Porya Zarei's Application. Hello , Welcome to my Web Application.In this app I Share my experience and News about Technologies and coding",
+  "categories": [
+    "technology",
+    "coding",
+    "education",
+    "programming",
+    "blog",
+    "Porya Zarei"
+  ],
+  "icons": [
+    {
+      "src": "./icon/pze.svg",
+      "type": "vector/svg",
+      "sizes": "*x*"
+    },
+    {
+      "src": "./icon/pze48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon/pze72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon/pze96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon/pze128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "./icon/pze256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "./icon/pze512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon/pze512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon/pze1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    },
+    {
+      "src": "./icon/pze1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon/pze.svg",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "maskable"
+    }
+  ],
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "dir": "rtl",
+  "lang": "fa",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "url": "/",
+      "description": "Main Page"
+    },
+    {
+      "name": "Portfolio",
+      "url": "/Portfolio",
+      "description": "Portfolio Page. my Works,knowledge,degrees"
+    },
+    {
+      "name": "Blog",
+      "url": "/Blog",
+      "description": "Blog Page. News ans Posts"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/pze1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    },
+    {
+      "src": "/images/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/images/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "540x720"
+    }
+  ]
+}

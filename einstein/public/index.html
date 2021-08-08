@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description"
+    content="Porya Zarei's Application. Hello , Welcome to my Web Application In this app Share my experience and News about Technologies." />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="EINSTEIN" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="yellow" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- icons -->
+  <link rel="icon" href="%PUBLIC_URL%/icon/pze.png" />
+  <link rel="icon" href="%PUBLIC_URL%/icon/pze.svg" />
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon/pze.svg" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon/pze1024.png" />
+
+  <link rel="shortcut icon" href="%PUBLIC_URL%/icon/pze.svg" type="image/png" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/icon/pze1024.png" type="vector/svg" />
+  <!-- /icons -->
+
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <link rel="stylesheet" href="/css/scss/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="/css/chatDialog.css" />
+  <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="/css/ReactToastify.min.css">
+  <link rel="stylesheet" href="/css/animate.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-icons.min.css" />
+  <title>Einstein</title>
+</head>
+
+<body dir="rtl">
+
+  <div id="root"></div>
+
+  <script src="./js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/Chart.min.js"></script>
+  <script src="./js/dashboard.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/chatDialog.js"></script>
+  <script src="./js/popper-utils.min.js"></script>
+  <!--! linkedin -->
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <!--! /linkedin -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+      if ('serviceWorker' in navigator) {
+        navigator
+          .serviceWorker
+          .register('/sw.js').then(registration => {
+            console.log('Service worker registration succeeded:', registration);
+          }).catch(err => {
+            console.log('Service worker registration failed:', err);
+          })
+      }
+
+      let state;
+      if (navigator.permissions) {
+        navigator.permissions.query({
+          name: "notifications"
+        }).then(res => {
+          state = res.state;
+        });
+      }
+      if ("serviceWorker" in navigator && "PushManager" in window) {
+        if (state !== "granted") {
+          Notification.requestPermission().then(result => {
+            console.log("result in pushhh => ", result);
+          });
+        }
+      }
+    });
+  </script>
+  <script src="./js/notification.js"></script>
+</body>
+
+</html>
