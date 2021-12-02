@@ -17,7 +17,8 @@ API/bin
 API/obj
 API/bin/*
 API/obj/*
-
+API/.vs
+API/.vscode
 # testing
 /coverage
 
